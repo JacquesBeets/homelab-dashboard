@@ -1,0 +1,24 @@
+[
+  {
+    "_id": "b5693a21-6ad9-431d-86b7-757225f3b2ae",
+    "colName": "homelab",
+    "created": "2022-05-07T09:12:05.095Z",
+    "sortNum": 10000,
+    "folders": [
+      {
+        "_id": "fb7cc5a3-474a-44e9-8488-5899dcf7bcff",
+        "name": "sites",
+        "containerId": "",
+        "created": "2022-05-07T09:12:31.329Z",
+        "sortNum": 10000
+      },
+      {
+        "_id": "ca4d2c76-d112-4d48-9790-73da4378488e",
+        "name": "users",
+        "containerId": "",
+        "created": "2022-05-07T09:12:49.589Z",
+        "sortNum": 20000
+      }
+    ]
+  }
+]

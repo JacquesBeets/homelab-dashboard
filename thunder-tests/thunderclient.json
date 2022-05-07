@@ -1,0 +1,69 @@
+[
+  {
+    "_id": "3019c170-db1d-478e-b107-7614e3dc1e5f",
+    "colId": "b5693a21-6ad9-431d-86b7-757225f3b2ae",
+    "containerId": "fb7cc5a3-474a-44e9-8488-5899dcf7bcff",
+    "name": "Get all sites",
+    "url": "http://localhost:5000/api/all",
+    "method": "GET",
+    "sortNum": 20000,
+    "created": "2022-05-07T09:13:28.351Z",
+    "modified": "2022-05-07T09:13:35.886Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "24f51621-6247-443c-9c2a-506fc9d063e1",
+    "colId": "b5693a21-6ad9-431d-86b7-757225f3b2ae",
+    "containerId": "fb7cc5a3-474a-44e9-8488-5899dcf7bcff",
+    "name": "Delete Sites",
+    "url": "http://localhost:5000/api/remove",
+    "method": "POST",
+    "sortNum": 30000,
+    "created": "2022-05-07T09:15:06.294Z",
+    "modified": "2022-05-07T10:51:54.517Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "\t{\r\n\t\t\"_id\": \"62764f3efdf5a1d9f3ce6b84\"\r\n\t}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "96036e0e-aae6-4b9e-8ccb-1c3ae52f3705",
+    "colId": "b5693a21-6ad9-431d-86b7-757225f3b2ae",
+    "containerId": "fb7cc5a3-474a-44e9-8488-5899dcf7bcff",
+    "name": "Create New Site",
+    "url": "http://localhost:5000/api/new",
+    "method": "POST",
+    "sortNum": 40000,
+    "created": "2022-05-07T09:16:25.014Z",
+    "modified": "2022-05-07T09:34:02.556Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "url",
+          "value": "http://10.0.0.72:8989"
+        },
+        {
+          "name": "name",
+          "value": "Sonarr"
+        }
+      ],
+      "files": [
+        {
+          "name": "icon",
+          "value": "C:\\Users\\Jacques\\Pictures\\p2.PNG"
+        }
+      ]
+    },
+    "tests": []
+  }
+]
