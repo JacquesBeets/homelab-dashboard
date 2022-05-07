@@ -23,7 +23,7 @@ const path = require('path')
 app.use(express.static(path.join(rootDirectory, 'public')))
 
 // MAKE ICONS AVAILABLE
-app.use('/assets', express.static(path.join(rootDirectory, 'assets')));
+app.use('/storage', express.static(path.join(rootDirectory, 'storage')));
 
 // API ENDPOINTS
 app.use('/api',linkRoutes)
