@@ -7,7 +7,7 @@ const multer  = require('multer')
 //Configuration for Multer
 const multerStorage = multer.diskStorage({
     destination: (req, file, cb) => {
-      cb(null, "assets/icons");
+      cb(null, "storage/icons");
     },
     filename: (req, file, cb) => {
       const ext = file.mimetype.split("/")[1];
